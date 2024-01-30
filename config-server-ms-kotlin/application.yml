@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: anderson-config-server
 management:
   endpoints:
     web:
