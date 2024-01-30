@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: anderson-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AndersonHqds/kotlin-microservice
+          search-paths:
+            - 'config-server-ms-kotlin/greeting-service*'
